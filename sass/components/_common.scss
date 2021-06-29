@@ -1,0 +1,62 @@
+body {
+  background-color: $primary-white-colour;
+  color: $main-text-colour;
+  font-family: Roboto, BlinkMacSystemFont, Oxygen, Ubuntu, Cantarell, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+// .section {
+//   padding-top: 94px;
+//   padding-bottom: 94px;
+// }
+.section--grey {
+  background-color: $background-color;
+}
+.button {
+  display: inline-block;
+  cursor: pointer;
+  border: transparent;
+  border-radius: 4px;
+  padding: 10px 32px;
+  min-width: 200px;
+
+  color: $primary-white-colour;
+  background-color: $accent-colour;
+
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  }
+}
+// .flex-item {
+//   display: flex;
+// }
+// .flex-item > .sample__item:not(:first-child),
+// .flex-item > .team__item:not(:first-child) {
+//   margin-left: 30px;
+// }
+.section-header {
+  color: $secondary-text-colour;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.16;
+
+  text-align: center;
+  margin-bottom: 30px;
+
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 50px;
+    font-size: 36px;
+  }
+}

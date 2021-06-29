@@ -1,0 +1,43 @@
+// .flex-item .benefit__item + .benefit__item {
+//   margin-left: 30px;
+// }
+.benefit {
+  @media screen and (max-width: 767px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.benefit__item {
+  @media screen and (max-width: 767px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+}
+.benefit__image {
+  height: 120px;
+
+  background-color: $background-color;
+  border-radius: 4px;
+  margin-bottom: 30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  @media screen and (min-width: 480px) {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
+.benefit__title {
+  color: $secondary-text-colour;
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}

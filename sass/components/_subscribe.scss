@@ -1,0 +1,28 @@
+.subscribe {
+  @media screen and (min-width: 1200px) {
+    margin-left: 93px;
+  }
+}
+.subscribe__form {
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.subscribe__input {
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  padding: 15px 16px;
+  background-color: inherit;
+  color: $primary-white-colour;
+}
+.subscribe__button {
+  display: flex;
+  align-items: center;
+  margin-left: 12px;
+}
+.subscribe__icon {
+  margin-left: 10px;
+}
