@@ -1,9 +1,17 @@
 .agreement {
   display: block;
   position: relative;
-  line-height: 1.71;
+
   margin-bottom: 30px;
   padding-left: 24px;
+
+  font-size: 12px;
+  line-height: 1.16;
+
+  @media screen and (min-width: 1200px) {
+    font-size: inherit;
+    line-height: 1.71;
+  }
 }
 .agreement__checkbox {
   position: absolute;

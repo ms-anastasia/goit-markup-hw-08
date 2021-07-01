@@ -3,6 +3,12 @@
   align-items: center;
   justify-content: center;
 }
+.social--grey {
+  margin-bottom: 60px;
+  @media screen and (min-width: 1200px) {
+    margin: 0px;
+  }
+}
 .social__button {
   border-radius: 50%;
   width: 44px;

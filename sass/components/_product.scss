@@ -14,9 +14,11 @@
   width: 100%;
   height: 70px;
   background-color: $product-overlay;
-  // display: flex;
-  // justify-content: center;
-  // align-items: center;
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 .product__text {
   color: $primary-white-colour;
