@@ -1,90 +1,90 @@
-.hero {
-  background-color: $footer-background;
-  text-align: center;
-  height: 400px;
-  padding-top: 118px;
-  padding-bottom: 118px;
-  max-width: 1600px;
+// .hero {
+//   background-color: $footer-background;
+//   text-align: center;
+//   height: 400px;
+//   padding-top: 118px;
+//   padding-bottom: 118px;
+//   max-width: 1600px;
 
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-    url('../images/banner_mobile.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+//   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+//     url('../images/banner_mobile.jpg');
+//   background-position: center;
+//   background-repeat: no-repeat;
+//   background-size: cover;
 
-  @media screen and (min-width: 1200px) {
-    height: 600px;
-    padding-top: 200px;
-    padding-bottom: 200px;
-  }
-}
+//   @media screen and (min-width: 1200px) {
+//     height: 600px;
+//     padding-top: 200px;
+//     padding-bottom: 200px;
+//   }
+// }
 
-@media (min-resolution: 2dppx) {
-  .hero {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-      url('../images/banner_mobile_2x.jpg');
-  }
-}
-@media screen and (min-width: 480px) {
-  .hero {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-      url('../images/banner_tablet.jpg');
-  }
-}
-@media (min-resolution: 2dppx) {
-  .hero {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-      url('../images/banner_tablet_2x.jpg');
-  }
-}
-@media (min-width: 768px) {
-  .hero {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-      url('../images/banner_destop.jpg');
-  }
-}
-@media (min-resolution: 2dppx) {
-  .hero {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-      url('../images/banner_desktop_2x.jpg');
-  }
-}
+// @media (min-resolution: 2dppx) {
+//   .hero {
+//     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+//       url('../images/banner_mobile_2x.jpg');
+//   }
+// }
+// @media screen and (min-width: 480px) {
+//   .hero {
+//     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+//       url('../images/banner_tablet.jpg');
+//   }
+// }
+// @media (min-resolution: 2dppx) {
+//   .hero {
+//     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+//       url('../images/banner_tablet_2x.jpg');
+//   }
+// }
+// @media (min-width: 768px) {
+//   .hero {
+//     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+//       url('../images/banner_destop.jpg');
+//   }
+// }
+// @media (min-resolution: 2dppx) {
+//   .hero {
+//     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+//       url('../images/banner_desktop_2x.jpg');
+//   }
+// }
 
-.hero--centered {
-  margin-left: auto;
-  margin-right: auto;
-}
-.hero-content {
-  width: 100%;
-  @media screen and(min-width: 480px) {
-    width: 360px;
-  }
+// .hero--centered {
+//   margin-left: auto;
+//   margin-right: auto;
+// }
+// .hero-content {
+//   width: 100%;
+//   @media screen and(min-width: 480px) {
+//     width: 360px;
+//   }
 
-  @media screen and(min-width: 1200px) {
-    width: 696px;
-  }
-}
-.hero-content--centered {
-  margin-left: auto;
-  margin-right: auto;
-}
-.hero-content__title {
-  color: $primary-white-colour;
-  font-weight: 900;
+//   @media screen and(min-width: 1200px) {
+//     width: 696px;
+//   }
+// }
+// .hero-content--centered {
+//   margin-left: auto;
+//   margin-right: auto;
+// }
+// .hero-content__title {
+//   color: $primary-white-colour;
+//   font-weight: 900;
 
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
+//   letter-spacing: 0.06em;
+//   text-transform: uppercase;
 
-  font-size: 26px;
-  line-height: 1.6;
+//   font-size: 26px;
+//   line-height: 1.6;
 
-  margin-top: 0px;
-  margin-bottom: 30px;
+//   margin-top: 0px;
+//   margin-bottom: 30px;
 
-  font-size: 26px;
-  line-height: 42px;
-  @media screen and(min-width: 1200px) {
-    font-size: 44px;
-    line-height: 1.36;
-  }
-}
+//   font-size: 26px;
+//   line-height: 42px;
+//   @media screen and(min-width: 1200px) {
+//     font-size: 44px;
+//     line-height: 1.36;
+//   }
+// }
