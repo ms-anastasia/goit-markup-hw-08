@@ -1,0 +1,36 @@
+.mobile-social {
+  display: flex;
+}
+.mobile-social__item {
+  position: relative;
+  display: block;
+  &:not(:first-child) {
+    margin-left: 10px;
+  }
+  &:not(:last-child) {
+    padding-right: 10px;
+
+    &::after {
+      content: '';
+
+      display: block;
+      height: 22px;
+      width: 1px;
+      border: 1px solid $input-border;
+
+      position: absolute;
+      top: 0;
+      right: 0;
+    }
+  }
+}
+.mobile-social__link {
+  font-weight: 500;
+  line-height: 1.22;
+  letter-spacing: 0.02em;
+
+  color: $accent-colour;
+  @media screen and (min-width: 1200px) {
+    font-size: 18px;
+  }
+}

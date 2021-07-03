@@ -17,11 +17,26 @@
   </head>
   <body>
     <!--Шапка сайта-->
-    <header class="header-portfolio">
+    <header>
       <div class="container container--flex">
-        <a href="./index.html" class="logo logo--black"
-          ><span class="logo--accent">Web</span>Studio</a
-        >
+        <div class="mobile-container">
+          <a href="./index.html" class="logo logo--black"
+            ><span class="logo--accent">Web</span>Studio</a
+          >
+          <button type="button" class="menu-button js-open-menu" data-menu-button>
+            <svg
+              width="40px"
+              height="40px"
+              class="menu-button__image"
+              aria-label="Кнопка мобильного меню"
+            >
+              <use
+                class="menu-button__menu-svg js-open-menu"
+                href="./images/icons.svg#icon-menu"
+              ></use>
+            </svg>
+          </button>
+        </div>
         <nav>
           <ul class="navigation navigation--header">
             <li class="item navigation__item">
@@ -105,12 +120,7 @@
                       "
                       media="(min-width: 480px)"
                     />
-                    <img
-                      src="./images/portfolio1_desktop-min.jpg"
-                      alt="Технокряк"
-                      width="370"
-                      height="294"
-                    />
+                    <img src="./images/portfolio1_mob-min.jpg" alt="Технокряк" />
                   </picture>
                   <div class="portfolio__overlay">
                     <p class="portfolio__overlay-text">
@@ -151,12 +161,7 @@
                       "
                       media="(min-width: 480px)"
                     />
-                    <img
-                      src="./images/portfolio2_desktop-min.jpg"
-                      alt="New Orlean vs Golden Star"
-                      width="370"
-                      height="294"
-                    />
+                    <img src="./images/portfolio2_mob-min.jpg" alt="New Orlean vs Golden Star" />
                   </picture>
                   <div class="portfolio__overlay">
                     <p class="portfolio__overlay-text">
@@ -196,12 +201,7 @@
                       "
                       media="(min-width: 480px)"
                     />
-                    <img
-                      src="./images/portfolio3_desktop_-min.jpg"
-                      alt="seafood restaurant logo"
-                      width="370"
-                      height="294"
-                    />
+                    <img src="./images/portfolio3_mob-min.jpg" alt="seafood restaurant logo" />
                   </picture>
                   <div class="portfolio__overlay">
                     <p class="portfolio__overlay-text">
@@ -241,12 +241,7 @@
                       "
                       media="(min-width: 480px)"
                     />
-                    <img
-                      src="./images/portfolio4_desktop-min.jpg"
-                      alt="headphones"
-                      width="370"
-                      height="294"
-                    />
+                    <img src="./images/portfolio4_mob-min.jpg" alt="headphones" />
                   </picture>
                   <div class="portfolio__overlay">
                     <p class="portfolio__overlay-text">
@@ -286,12 +281,7 @@
                       "
                       media="(min-width: 480px)"
                     />
-                    <img
-                      src="./images/portfolio5_desktop-min.jpg"
-                      alt="boxes logo"
-                      width="370"
-                      height="294"
-                    />
+                    <img src="./images/portfolio5_mob-min.jpg" alt="boxes logo" />
                   </picture>
                   <div class="portfolio__overlay">
                     <p class="portfolio__overlay-text">
@@ -332,10 +322,8 @@
                       media="(min-width: 480px)"
                     />
                     <img
-                      src="./images/portfolio6_desktop-min.jpg"
+                      src="./images/portfolio6_mob-min.jpg"
                       alt="logo inspiration has no borders"
-                      width="370"
-                      height="294"
                     />
                   </picture>
                   <div class="portfolio__overlay">
@@ -376,12 +364,7 @@
                       "
                       media="(min-width: 480px)"
                     />
-                    <img
-                      src="./images/portfolio7_desktop-min.jpg"
-                      alt="limited edition magazine"
-                      width="370"
-                      height="294"
-                    />
+                    <img src="./images/portfolio7_mob-min.jpg" alt="limited edition magazine" />
                   </picture>
                   <div class="portfolio__overlay">
                     <p class="portfolio__overlay-text">
@@ -421,12 +404,7 @@
                       "
                       media="(min-width: 480px)"
                     />
-                    <img
-                      src="./images/portfolio8_desktop-min.jpg"
-                      alt="lab project logo"
-                      width="370"
-                      height="294"
-                    />
+                    <img src="./images/portfolio8_mob-min.jpg" alt="lab project logo" />
                   </picture>
                   <div class="portfolio__overlay">
                     <p class="portfolio__overlay-text">
@@ -466,12 +444,7 @@
                       "
                       media="(min-width: 480px)"
                     />
-                    <img
-                      src="./images/portfolio9_desktop-min.jpg"
-                      alt="growing business website"
-                      width="370"
-                      height="294"
-                    />
+                    <img src="./images/portfolio9_mob-min.jpg" alt="growing business website" />
                   </picture>
                   <div class="portfolio__overlay">
                     <p class="portfolio__overlay-text">
@@ -556,5 +529,71 @@
         </div>
       </div>
     </footer>
+    <!-- Мобильное меню -->
+    <div class="container">
+      <div class="mobile-menu js-menu-container" id="mobile-menu">
+        <button type="button" class="menu-button menu-button--close js-close-menu">
+          <svg
+            width="40px"
+            height="40px"
+            class="menu-button__image"
+            aria-label="Кнопка мобильного меню"
+          >
+            <use
+              class="menu-button__menu-svg js-open-menu"
+              href="./images/icons.svg#icon-cross"
+            ></use>
+            >
+          </svg>
+        </button>
+        <nav>
+          <ul class="mobile-navigation">
+            <li class="mobile-navigation__item">
+              <a href="./index.html" class="mobile-navigation__link"> Студия </a>
+            </li>
+            <li class="mobile-navigation__item">
+              <a href="./portfolio.html" class="mobile-navigation__link">Портфолио</a>
+            </li>
+            <li class="mobile-navigation__item">
+              <a href="" class="mobile-navigation__link">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <div>
+          <!-- Контакты мобильного меню -->
+          <ul class="mobile-contacts">
+            <li class="mobile-contacts__item">
+              <a href="tel:+380961111111" class="mobile-contacts__link--accent">
+                +38 096 111 11 11
+              </a>
+            </li>
+            <li class="mobile-contacts__item">
+              <a
+                href="mailto:info@devstudio.com"
+                class="mobile-contacts__link mobile-contacts__link--grey"
+              >
+                info@devstudio.com
+              </a>
+            </li>
+          </ul>
+          <!-- Соцсети -->
+          <ul class="mobile-social">
+            <li class="mobile-social__item">
+              <a href="" class="mobile-social__link">Instagram</a>
+            </li>
+            <li class="mobile-social__item"><a href="" class="mobile-social__link">Twitter</a></li>
+            <li class="mobile-social__item"><a href="" class="mobile-social__link">Facebook</a></li>
+            <li class="mobile-social__item"><a href="" class="mobile-social__link">LinkedIn</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="js/mobile-menu.js"></script>
   </body>
 </html>

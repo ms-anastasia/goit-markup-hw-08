@@ -1,25 +1,64 @@
 .hero {
   background-color: $footer-background;
   text-align: center;
-
-  height: 600px;
+  height: 400px;
+  padding-top: 118px;
+  padding-bottom: 118px;
   max-width: 1600px;
 
-  padding-top: 200px;
-  padding-bottom: 200px;
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-    url('../images/banner.jpg');
-
+    url('../../images/banner_mobile.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
+  @media screen and (min-width: 1200px) {
+    height: 600px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
 }
+
+@media (min-resolution: 2dppx) {
+  .hero {
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+      url('../../images/banner_mobile_2x.jpg');
+  }
+}
+@media screen and (min-width: 480px) {
+  .hero {
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+      url('../../images/banner_tablet.jpg');
+  }
+}
+@media (min-resolution: 2dppx) {
+  .hero {
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+      url('../../images/banner_tablet_2x.jpg');
+  }
+}
+@media (min-width: 768px) {
+  .hero {
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+      url('../../images/banner_destop.jpg');
+  }
+}
+@media (min-resolution: 2dppx) {
+  .hero {
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+      url('../../images/banner_desktop_2x.jpg');
+  }
+}
+
 .hero--centered {
   margin-left: auto;
   margin-right: auto;
 }
 .hero-content {
   width: 100%;
+  @media screen and(min-width: 480px) {
+    width: 360px;
+  }
 
   @media screen and(min-width: 1200px) {
     width: 696px;
