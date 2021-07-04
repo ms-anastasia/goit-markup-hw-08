@@ -13,8 +13,10 @@
 }
 .mobile-contacts__link--accent {
   color: $accent-colour;
-
-  font-size: 34px;
+  font-size: 24px;
+  @media screen and (min-width: 480px) {
+    font-size: 34px;
+  }
 }
 .mobile-contacts__link--grey {
   font-size: 24px;

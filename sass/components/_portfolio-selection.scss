@@ -12,6 +12,11 @@
     margin-bottom: 50px;
   }
 }
+.selection__filter:not(:nth-last-of-type(-n + 2)) {
+  @media screen and (max-width: 767px) {
+    margin-bottom: 15px;
+  }
+}
 .selection__button {
   font-family: inherit;
   font-weight: 500;
