@@ -38,7 +38,7 @@
             </svg>
           </button>
         </div>
-        <nav>
+        <nav class="navigation-content">
           <ul class="navigation navigation--header">
             <li class="item navigation__item">
               <a href="./index.html" class="navigation__link navigation__link--active"> Студия </a>
@@ -52,7 +52,9 @@
         <!-- Контакты -->
         <ul class="header-contacts header-contacts--right">
           <li class="item header-contacts__item">
-            <a href="mailto:info@devstudio.com" class="header-contacts__link"
+            <a
+              href="mailto:info@devstudio.com"
+              class="header-contacts__link header-contacts__link--top"
               ><svg class="header-contacts__icon" width="16px" height="12px">
                 <use href="./images/icons.svg#icon-envelope"></use>
               </svg>
@@ -60,7 +62,7 @@
             </a>
           </li>
           <li class="item header-contacts__item">
-            <a href="tel:+380961111111" class="header-contacts__link"
+            <a href="tel:+380961111111" class="header-contacts__link header-contacts__link--bottom"
               ><svg class="header-contacts__icon" width="10px" height="16px">
                 <use href="./images/icons.svg#icon-smartphone"></use>
               </svg>
@@ -613,7 +615,12 @@
         <nav>
           <ul class="mobile-navigation">
             <li class="mobile-navigation__item">
-              <a href="./index.html" class="mobile-navigation__link mobile-navigation__link--active"> Студия </a>
+              <a
+                href="./index.html"
+                class="mobile-navigation__link mobile-navigation__link--active"
+              >
+                Студия
+              </a>
             </li>
             <li class="mobile-navigation__item">
               <a href="./portfolio.html" class="mobile-navigation__link">Портфолио</a>

@@ -9,9 +9,9 @@
     align-items: baseline;
     justify-content: space-around;
   }
-
   @media screen and (min-width: 1200px) {
     justify-content: space-between;
+    flex-wrap: nowrap;
   }
 }
 .footer {
@@ -29,6 +29,9 @@
 }
 .footer-wrap--bottom {
   margin-bottom: 60px;
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 0px;
+  }
 }
 .footer__navigation {
   display: flex;
